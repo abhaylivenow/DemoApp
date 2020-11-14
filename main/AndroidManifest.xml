@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demoapp3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DemoApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyCourses"
+            android:label="My Courses"></activity>
+        <activity android:name=".CourseDetail" android:label="Course Detail"/>
+        <activity android:name=".CoursesActivity" android:label="Course List" />
+        <activity android:name=".Notification" android:label="Notification Activity"/>
+        <activity android:name=".LiveClass" android:label="Live Classes"/>
+        <activity android:name=".MainActivity" android:label="Demo App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
